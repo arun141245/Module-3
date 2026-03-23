@@ -24,8 +24,20 @@ To write a Python function that accepts a number **N** and creates a list contai
 ### PROGRAM
 
 ```
+
+
+def createlist(n):
+    l = []
+    for i in range(12, n):
+        if i % 2 == 0:
+            l.append(i)
+    print("List =", l)
+    print("Sum of the list", sum(l))
+
 ```
 
 ### OUTPUT
+<img width="737" height="241" alt="image" src="https://github.com/user-attachments/assets/7e2496ed-b7d3-4670-8fe9-fa0e4a1925a1" />
 
 ### RESULT
+Thus the program that creates a list of even numbers from 12 to n and prints the list and its sum has been implemented and executed successfully.
